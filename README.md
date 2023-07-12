@@ -15,8 +15,6 @@ Tested with Python 3.7.3, Pytorch 1.12.0 on Linux
 
 Required python libraries: gensim and scipy; all python libraries required by pytorch_DGCNN are networkx, tqdm, sklearn etc.
 
-If you want to enable embeddings for link prediction, please install the network embedding software 'node2vec' in "software" (if the included one does not work).
-
 Installation
 ------------
 
