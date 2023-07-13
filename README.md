@@ -24,7 +24,7 @@ bash install.sh
 
 to install the required software and libraries. Node2vec and DGCNN are included in the software folder.
 
-Usages
+Data
 ------
 Unzip DREAM5 data
 
@@ -35,8 +35,8 @@ unzip dreamdata.zip
 cd ../../
 
 
-Training
+Usage
 --------
-Train the optimized condition model with this command (data3 means E. coli):
+Train the optimized condition model with this command (data3 means _E. coli_, data4 means _S. cerevisiae_):
 
 python grand.py --data-name data3 --bio-mean -0.6 --bio-std-dev 0.5
